@@ -14,7 +14,7 @@ def sendEmail(to, content):
 if __name__ == '__main__':
     try:
         content = input('Type your text \n')
-        to = input('receiver\'s email')
+        to = input('receiver\'s email \n')
         sendEmail(to, content)
         print('Email sent successfully')
     except Exception as e:
